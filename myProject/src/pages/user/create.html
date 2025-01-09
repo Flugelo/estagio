@@ -1,0 +1,39 @@
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de usuário</title>
+    <script src="../../../assets/js/user/create.js"></script>
+</head>
+<body>
+    <h3>Cadastro de usuário</h3>
+    <form id="formCreateUser">
+        <div>
+            <label for="nomeUsuario">Nome do usuário</label>
+            <input type="text" name="nomeUsuario" id="nomeUsuario" required="">
+    
+            <label for="senha">Sua senha</label>
+            <input type="password" name="senha" id="senha" required="">
+    
+            <label for="email">Seu email</label>
+            <input type="email" name="email" id="email" required="">
+    
+            <input type="submit" value="Cadastrar">
+        </div>
+    </form>
+    <br><br>
+    <div id="listagem-pessoas">
+        <table class="tabela-dinamica">
+            <thead>
+                <tr>
+                    <th>Usuário</th>
+                    <th>Senha</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                
+            </tbody>
+        </table>
+    </div>
+
+</body></html>
