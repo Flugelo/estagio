@@ -1,0 +1,47 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+    background: #f2f4f7;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    }
+    .box {
+    width: 300px;
+    height: 300px;
+    background: #fff;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+    
+    }
+    body {
+    margin: 0px;
+    }
+
+    input {
+        background-color: f2f4f7;
+        color: black;
+        padding: 0.5rem;
+        margin-top: 0.5rem;
+        width: 99%;
+    }
+
+    h3{
+        justify-self: center;
+        color: blue
+    }
+
+    h5 {
+        justify-self: center;
+    }
+
+#submit_id {
+    background-color: dodgerblue; 
+    color: white; 
+    width: 100%; 
+    border: none; 
+    border-radius: rounded;
+}
