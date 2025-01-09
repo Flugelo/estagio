@@ -1,36 +1,46 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Facebook - Login</title>
-    <script src="js/index.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/fireworks-js@2.x/dist/index.umd.js"></script>
-    <link rel="stylesheet" href="css/index.css"/>
+    <title>Pagina inicial</title>
+
+    <!-- Js imports -->
+     <script src="assets/js/login.js"></script>
+
+    <!-- Css imports -->
+    <link rel="stylesheet" href="assets/css/login.css">
+
+    <!-- Icons -->
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+
 </head>
+
 <body>
     <div class="container">
         <div class="box">
-            <h3>Facebook</h3>
-            <hr>
-            <div id="response">
-
-            </div>
-            <div id="fireworks"></div>
-            <h5>Login</h5>
-            <form>
-                <div style="text-align: center">
-                    <input type="email" id="id_usuario" value="" name="username" placeholder="Username" value="">
-                    <input type="password" id="id_senha" name="password" placeholder="Password" value="">
-                    <input id="submit_id" type="button" value="Login" onclick="onLogin()">
+            <h3>Login</h3>
+            <form id="form-login">
+                <div class="input-container">
+                    <i class="bx bx-user"></i>
+                    <input type="text" name="email" placeholder="Your email" id="input-email">
                 </div>
-                 <div>
-                    <a href="#">Esqueci a senha</a>
-                    <a href="#">Sou novoa</a>
+                
+                <div class="input-container">
+                    <i class="bx bx-key"></i>
+                    <input type="password" name="password" placeholder="Your password" id="input-password">
                 </div>
+    
+                <div>
+                    <input type="checkbox" name="remember" id="rememberInput">
+                    <label for="rememberInput">Remember me</label>
+                </div>
+                <button type="submit" class="submit">Login</button>
             </form>
+            
         </div>
     </div>
-    <img src="imageas.jpeg" alt="">
 </body>
+
 </html>
